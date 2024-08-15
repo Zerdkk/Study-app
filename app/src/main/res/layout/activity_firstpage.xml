@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E2F2F1"
+    tools:context=".splashscreen">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp">
+
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <View
+                android:layout_width="240dp"
+                android:layout_height="240dp"
+                android:background="@drawable/background"
+                android:layout_gravity="center" />
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@drawable/hat"
+                android:layout_gravity="center" />
+        </FrameLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="StudyPal"
+            android:textSize="36sp"
+            android:textColor="#2629D1"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="8dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Pocket Guide for School"
+            android:textSize="18sp"
+            android:padding="16dp"
+            android:textColor="#69D0D0"
+            android:gravity="center"
+            android:layout_marginBottom="24dp" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Begin"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/white"
+            android:padding="12dp" />
+
+    </LinearLayout>
+</FrameLayout>
